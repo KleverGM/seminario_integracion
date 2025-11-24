@@ -9,5 +9,6 @@ urlpatterns = [
     path('api/', include('invoices.urls')),
     path('api/', include('warehouses.urls')),
     path('api/basics/', include('basics.urls')),
+    path('api/cursos/', include('ejemplos_para_cursos_online.urls')),
 
 ]
